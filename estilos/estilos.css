@@ -2,6 +2,12 @@ body{
     font-family: 'Gilroy', sans-serif;
 }
 
+hr{
+    padding: 10px;
+    background-color: rgba(90, 167, 90, 0.599);
+    border: none;
+}
+
 #principal{
     border: 2px;
     background-color: rgba(238, 238, 238, 0.987);
