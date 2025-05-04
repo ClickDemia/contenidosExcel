@@ -13,7 +13,7 @@ hr{
     background-color: rgba(238, 238, 238, 0.987);
 }
 
-img {
+#imagen-encabezado {
     width: 90%;
     height: auto;
     display: block;
@@ -74,6 +74,11 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+    #imagen-encabezado {
+        width: 100%;
+        height: auto;
+    }
+    
     footer {
         flex-direction: column;
         align-items: center;
